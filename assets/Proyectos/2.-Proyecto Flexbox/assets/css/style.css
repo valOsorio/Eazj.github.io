@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+/*header*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    letter-spacing: 0.2rem;
+}
+/*backgound de iguana*/
+
+.cajita-de-foto-iguana{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.foto-de-iguana{
+    /*height: 128vh;*/
+    height: 100%;
+    width: 100%;
+}
+
+
+/*zona de cajita de iguana*/
+.cajita-de-iguana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.caja-text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 28vw;
+    height: 25vh;
+    padding-right: 2vw;
+}
+.texto-de-iguana{
+    margin: 0;
+    padding: 0;
+}
+.imagen-de-iguana{
+    display:flex;
+    height: 25vh;
+}
+
+/* cajita caracteristicas*/
+.cajita-caracteristicas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #1E1A13;
+    height: 35vh;
+    text-align: center;
+}
+.cajita-caracteristicas h1{
+    width: 99vw;
+}
+.caja-iconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 20vw;
+}
+.caja-iconos p{
+    padding: 2rem;
+}
+/*cajita imagenes*/
+.cajita-imagenes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+
+}
+.muchas-cajas-iguanas{
+    height: 25vh;
+    width: 25w;
+    padding: 0.5vw;
+}
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 15vh;
+    background-color: #1E1A13;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+}
+body{
+    height: 100vh;
+}
+/*navbar*/
+.navbar{
+    background-color: #28A745;
+}
+.text-cuppon{
+    margin-left: 3rem;
+}
+
+/*cards*/
+.card-title{
+    color: #212529;
+}
+.card-text{
+    color: #707070;
+}
+.direccion{
+    color: #707070;
+}
+p i{
+    color: #707070;
+}
+.separador{
+    background-color: #707070;
+    height: 0.1vh;
+}
+.price{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    gap: 1rem;
+}
+.price-discount{
+    font-size: x-large;
+    color: #28A745;
+}
+.price-full{
+    padding-right: 1vw;
+    color: #707070;
+}
+/* form*/
+.form{
+    background-color: #28A745;
+}
+.form-control{
+    color: #707070;
+}
+/*footer*/
+/*col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4 p-5*/
+/*<p><i class="fas fa-location-dot"></i> 9191 Avenida Vitacura, Chile</p>*/

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.espacio{
+    margin: 2rem;
+}
+.titulo{
+    margin: 2rem;
+}
+/*navbar*/
+.barra-navegacion{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+}
+/*Seccion Trabajos*/
+.trabajo-card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Seccion Experiencia Laboral*/
+.contenedor-exp-laboral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+}
+/*Seccion Eduacion*/
+.contenedor-eduacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+}
+.subcontenedor-eduacion{
+    display: flex;
+}
+.contenedor-years{
+    align-items: flex-start;
+}
+/*Contacto*/
+.contacto-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bloque-contacto{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0 0.5rem 0;
+}

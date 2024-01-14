@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 900px;
+}
+/*Inicio modificacion zona header*/
+.header{
+    background-image: url(/assets/img/fondos/fondo.jpg);
+    height: 6rem;
+
+    text-align: center;
+}
+.spfactory{
+    height: 4em;
+    margin: 0;
+}
+.titulo{
+    text-align: center;
+    color: white;
+}
+/*Fin modificacion zona header*/
+
+/*Inicio modificacion zona Main*/
+
+.image-product{
+    height: 17rem;
+}
+.text-product{
+    margin: 20px;
+}
+.image-product, .text-product{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*Fin modificacion zona Main*/
+
+/*Inicio modificacion zona Footer*/
+.footer{
+    color: white;
+    height: 2rem;
+    background: rgb(29,11,65);
+    text-align: center;
+}
