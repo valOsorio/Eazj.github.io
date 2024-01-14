@@ -10,6 +10,9 @@
     margin: 2rem;
 }
 /*navbar*/
+.navbar{
+    background-color: #0000ad;
+}
 .barra-navegacion{
     display: flex;
     justify-content: flex-end;
@@ -51,4 +54,15 @@
     display: flex;
     align-items: center;
     margin: 0.5rem 0 0.5rem 0;
+}
+/*Footer*/
+.footer{
+    background-color: #0000ad;
+}
+
+.text-body{
+    color: white;
+}
+.link{
+    color: white;
 }
