@@ -1,302 +1,405 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/Css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/Css/style.css" />
     <title>CV Eleazar Jara</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #0000ad;">
-        <div class="container-fluid">
-          <img src="/assets/img/Eleazar Jara Logo.png" alt="logo">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse barra-navegacion" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active link-light" aria-current="page" href="#sobre-mi">Sobre Mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-light" href="#trabajos">Trabajos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-light" href="#exp-laboral">Exp Laboral</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-light" href="#educacion">Educacion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-light" href="#contacto">Contacto</a>
-              </li>
-            </ul>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg sticky-top"
+      style="background-color: #0000ad"
+    >
+      <div class="container-fluid">
+        <img src="/assets/img/Eleazar Jara Logo.png" alt="logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse barra-navegacion" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active link-light"
+                aria-current="page"
+                href="#sobre-mi"
+                >Sobre Mi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#exp-laboral">Exp Laboral</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#educacion">Educacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--inicio main-->
+    <main>
+      <!--Seccion Sobre Mi-->
+      <div class="container espacio">
+        <div class="row">
+          <div class="col-12 text-center titulo" id="sobre-mi">
+            <h1>Sobre Mí</h1>
           </div>
         </div>
-      </nav>
-      <!--inicio main-->
-      <main>
-        <!--Seccion Sobre Mi-->
-        <div class="container espacio">
-          <div class="row">
-            <div class="col-12 text-center titulo" id="sobre-mi">
-              <h1>Sobre Mí</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="./assets/img/20240114_182109.jpg"
+              class="img-fluid rounded-circle"
+              alt="..."
+              style="height: 22rem"
+            />
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p>
+              Mi Nombre es Eleazar un estudiante de programacion Full Stack en
+              Desafio Latam me gustan los videojuegos, el sushi, la pizza y
+              aprender cada dia en cosas nuevas.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--inicio seccion trabajos-->
+      <div class="container-fluid espacio">
+        <div class="text-center titulo" id="trabajos">
+          <h1>Trabajos</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col trabajo-card">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/img/imagen-proyecto-css.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Proyecto Tienda Css</h5>
+                <p class="card-text">
+                  Proyecto de una tienda simple con HTML y CSS
+                </p>
+                <a
+                  href="./assets/Proyectos/1.-Proyecto css/index.html"
+                  class="btn btn-primary"
+                  >Ir a visitar</a
+                >
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <img src="./assets/img/20240114_182109.jpg" class="img-fluid rounded-circle" alt="..." style="height: 22rem;">
+          <div class="col trabajo-card">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/img/imagen-proyecto-flexbox.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Proyecto Iguana Page</h5>
+                <p class="card-text">
+                  Landing Page de iguana Page utilizando HTML y CSS con Flexbox
+                </p>
+                <a
+                  href="./assets/Proyectos/2.-Proyecto Flexbox/index.html"
+                  class="btn btn-primary"
+                  >Ir a visitar</a
+                >
+              </div>
             </div>
-            <div class="col-md-6 d-flex align-items-center">
-              <p>Mi Nombre es Eleazar un estudiante de programacion Full Stack en Desafio Latam me gustan los videojuegos, el sushi, la pizza y aprender cada dia en cosas nuevas.</p>
+          </div>
+          <div class="col trabajo-card">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/img/imagen-proyecto-Bootstrap.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Proyecto Bootstrap</h5>
+                <p class="card-text">
+                  Proyecto de landing page utilizando Bootstrap V5.0.2
+                </p>
+                <a
+                  href="./assets/Proyectos/3.-Boostrap/index.html"
+                  class="btn btn-primary"
+                  >Ir a visitar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col trabajo-card">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./assets/img/imagen-proyecto-git.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Proyecto CV</h5>
+                <p class="card-text">
+                  Proyecto de un Curriculum Vitae usando CSS y Bootstrap
+                </p>
+                <a
+                  href="./assets/Proyectos/4.-Terminal Git y GitHub/index.html"
+                  class="btn btn-primary"
+                  >Ir a visitar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col trabajo-card">
+            <div class="card" style="width: 18rem">
+              <img
+                src="/assets/img/SITIO-EN-CONSTRUCCION.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bs-btn-hover-bg: #636464">
+                <h5 class="card-title">En Construccion</h5>
+                <p class="card-text">Sitio en Construccion</p>
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                  class="btn btn-primary"
+                  >Ir a visitar</a
+                >
+              </div>
             </div>
           </div>
         </div>
-        
-        <!--inicio seccion trabajos-->
-        <div class="container-fluid espacio">
-          <div class="text-center titulo" id="trabajos">
-            <h1>Trabajos</h1>
-          </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col trabajo-card">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/imagen-proyecto-css.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Proyecto Tienda Css</h5>
-                          <p class="card-text">Proyecto de una tienda simple con HTML y CSS</p>
-                          <a href="./assets/Proyectos/1.-Proyecto css/index.html" class="btn btn-primary">Ir a visitar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col trabajo-card">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/imagen-proyecto-flexbox.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Proyecto Iguana Page</h5>
-                          <p class="card-text">Landing Page de iguana Page utilizando HTML y CSS con Flexbox</p>
-                          <a href="./assets/Proyectos/2.-Proyecto Flexbox/index.html" class="btn btn-primary">Ir a visitar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col trabajo-card">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/imagen-proyecto-Bootstrap.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Proyecto Bootstrap</h5>
-                          <p class="card-text">Proyecto de landing page utilizando Bootstrap V5.0.2</p>
-                          <a href="./assets/Proyectos/3.-Boostrap/index.html" class="btn btn-primary">Ir a visitar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col trabajo-card">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/imagen-proyecto-git.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Proyecto CV</h5>
-                          <p class="card-text">Proyecto de un Curriculum Vitae usando CSS y Bootstrap</p>
-                          <a href="./assets/Proyectos/4.-Terminal Git y GitHub/index.html" class="btn btn-primary">Ir a visitar</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col trabajo-card">
-                    <div class="card" style="width: 18rem;">
-                        <img src="/assets/img/SITIO-EN-CONSTRUCCION.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">En Construccion</h5>
-                          <p class="card-text">Sitio en Construccion</p>
-                          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="btn btn-primary">Ir a visitar</a>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-        <!--Experiencia Laboral-->
-        <div class="container espacio">
+      </div>
+      <!--Experiencia Laboral-->
+      <div class="container espacio">
+        <ul>
           <div class="text-center titulo" id="exp-laboral">
             <h1>Experiencia Laboral</h1>
           </div>
           <div class="row">
-              <div class="contenedor-exp-laboral gap-4">
-                <div>
-                  <p>2023-Presente</p>
-                </div>
-                <div>
-                  <p><strong>Teleperformance</strong></p>
-                  <p>Operador</p>
-                  <p>Prestando Servicios a WOM.SA</p>
-                  <p>Retencion al cliente en telecomunicaciones</p>
-                </div>
+            <div class="contenedor-exp-laboral gap-4">
+              <div>
+                <p>2023-Presente</p>
               </div>
-              <div class="contenedor-exp-laboral gap-4">
-                <div>
-                  <p>2021-2021</p>
-                </div>
-                <div>
-                  <p><strong>MatService</strong></p>
-                  <p>Operador Mesa de Ayuda</p>
-                  <p>Prestando Servicios a Transbank.SA</p>
-                  <p>Asistencia telefonica por problemas de POS</p>
-                </div>
+              <div>
+                <p>
+                  <strong><li>Teleperformance</li></strong>
+                </p>
+                <p>Operador</p>
+                <p>Prestando Servicios a WOM.SA</p>
+                <p>Retencion al cliente en telecomunicaciones</p>
               </div>
-              <div class="contenedor-exp-laboral gap-4">
-                <div>
-                  <p>2019-2021</p>
-                </div>
-                <div>
-                  <p><strong>Entel Call Center</strong></p>
-                  <p>Operador Mesa de ayuda</p>
-                  <p>Prestando Servicios a Banco Estado</p>
-                  <p>Asistencia telefonica por problemas de software</p>
-                </div>
+            </div>
+            <div class="contenedor-exp-laboral gap-4">
+              <div>
+                <p>2021-2021</p>
               </div>
-              <div class="contenedor-exp-laboral gap-4">
-                <div>
-                  <p>2018-2019</p>
-                </div>
-                <div>
-                  <p><strong>Entel Call Center</strong></p>
-                  <p>Operador Mesa de Ayuda</p>
-                  <p>Prestando Servicios a Entel.SA</p>
-                  <p>Asistencia Telefonica por problemas de software</p>
-                </div>
+              <div>
+                <p>
+                  <strong><li>MatService</li></strong>
+                </p>
+                <p>Operador Mesa de Ayuda</p>
+                <p>Prestando Servicios a Transbank.SA</p>
+                <p>Asistencia telefonica por problemas de POS</p>
               </div>
-              <div class="contenedor-exp-laboral gap-4">
-                <div>
-                  <p>2017-2018</p>
-                </div>
-                <div>
-                  <p><strong>Policomp</strong></p>
-                  <p>Operador Mesa de Ayuda</p>
-                  <p>Prestando Servicios Al SII</p>
-                  <p>Asistencia telefonica por problemas tributarios</p>
-                </div>
+            </div>
+            <div class="contenedor-exp-laboral gap-4">
+              <div>
+                <p>2019-2021</p>
               </div>
+              <div>
+                <p>
+                  <strong><li>Entel Call Center</li></strong>
+                </p>
+                <p>Operador Mesa de ayuda</p>
+                <p>Prestando Servicios a Banco Estado</p>
+                <p>Asistencia telefonica por problemas de software</p>
+              </div>
+            </div>
+            <div class="contenedor-exp-laboral gap-4">
+              <div>
+                <p>2018-2019</p>
+              </div>
+              <div>
+                <p>
+                  <strong><li>Entel Call Center</li></strong>
+                </p>
+                <p>Operador Mesa de Ayuda</p>
+                <p>Prestando Servicios a Entel.SA</p>
+                <p>Asistencia Telefonica por problemas de software</p>
+              </div>
+            </div>
+            <div class="contenedor-exp-laboral gap-4">
+              <div>
+                <p>2017-2018</p>
+              </div>
+              <div>
+                <p>
+                  <strong><li>Policomp</li></strong>
+                </p>
+                <p>Operador Mesa de Ayuda</p>
+                <p>Prestando Servicios Al SII</p>
+                <p>Asistencia telefonica por problemas tributarios</p>
+              </div>
+            </div>
           </div>
+        </ul>
+      </div>
+      <!--Eduacion-->
+      <div class="container espacio">
+        <div class="text-center titulo" id="educacion">
+          <h1>Eduacion</h1>
         </div>
-        <!--Eduacion-->
-        <div class="container espacio">
-          <div class="text-center titulo" id="educacion">
-            <h1>Eduacion</h1>
-          </div>
-          <div class="row">
-            <div class="contenedor-eduacion">
-              <div class="subcontenedor-eduacion gap-4">
-                <div class="contenedor-years">
-                  <p>2017-2020</p>
-                </div>
-                <div>
-                  <p><strong>Iacc</strong></p>
-                  <p>Analista Programador</p>
-                  <p>Eduacion Superior</p>
-                  <p>Egresado</p>
-                </div>
+        <div class="row">
+          <div class="contenedor-eduacion">
+            <div class="subcontenedor-eduacion gap-4">
+              <div class="contenedor-years">
+                <p>2017-2020</p>
               </div>
-            </div>
-            <div class="contenedor-eduacion">
-              <div class="subcontenedor-eduacion gap-4">
-                <div class="contenedor-years">
-                  <p>2013-2016</p>
-                </div>
-                <div>
-                  <p><strong>DuocUC</strong></p>
-                  <p>Mecanica Automotriz</p>
-                  <p>Eduacion Superior</p>
-                  <p>Egresado</p>
-                </div>
-              </div>
-            </div>
-            <div class="contenedor-eduacion">
-              <div class="subcontenedor-eduacion gap-4">
-                <div class="contenedor-years">
-                  <p>2009-2012</p>
-                </div>
-                <div>
-                  <p><strong>Saint Lawrence</strong></p>
-                  <p>Mecancia Automotriz</p>
-                  <p>Enseñanza Media</p>
-                  <p>Completa</p>
-                </div>
-              </div>
-            </div>
-            <div class="contenedor-eduacion">
-              <div class="subcontenedor-eduacion gap-4">
-                <div class="contenedor-years">
-                  <p>2000-2008</p>
-                </div>
-                <div>
-                  <p><strong>Quillahue</strong></p>
-                  <p>Humanista</p>
-                  <p>Enseñanza Basica</p>
-                  <p>Completa</p>
-                </div>
+              <div>
+                <p><strong>Iacc</strong></p>
+                <p>Analista Programador</p>
+                <p>Eduacion Superior</p>
+                <p>Egresado</p>
               </div>
             </div>
           </div>
-        </div>
-        <!--Contacto-->
-        <div class="container espacio">
-          <div class="row">
-            <div class="text-center titulo" id="contacto">
-              <h1>Contacto</h1>
+          <div class="contenedor-eduacion">
+            <div class="subcontenedor-eduacion gap-4">
+              <div class="contenedor-years">
+                <p>2013-2016</p>
+              </div>
+              <div>
+                <p><strong>DuocUC</strong></p>
+                <p>Mecanica Automotriz</p>
+                <p>Eduacion Superior</p>
+                <p>Egresado</p>
+              </div>
             </div>
-            <div class="contacto-container">
-              <div class="bloque-contacto gap-3">
-                <div class="icono"><i class="fa-solid fa-phone"></i></div>
-                <div class="datos-de-contacto">+569-1234567989</div>
+          </div>
+          <div class="contenedor-eduacion">
+            <div class="subcontenedor-eduacion gap-4">
+              <div class="contenedor-years">
+                <p>2009-2012</p>
               </div>
-              <div class="bloque-contacto gap-3">
-                <div class="icono"><i class="fa-solid fa-envelope"></i></div>
-                <div class="datos-de-contacto">eleazartmw15@gmail.com</div>
+              <div>
+                <p><strong>Saint Lawrence</strong></p>
+                <p>Mecancia Automotriz</p>
+                <p>Enseñanza Media</p>
+                <p>Completa</p>
               </div>
-              <div class="bloque-contacto gap-3">
-                <div class="icono"><i class="fa-solid fa-location-dot"></i></div>
-                <div class="datos-de-contacto">Villa el crisol, Chillan Viejo, Ñuble, Chile</div>
+            </div>
+          </div>
+          <div class="contenedor-eduacion">
+            <div class="subcontenedor-eduacion gap-4">
+              <div class="contenedor-years">
+                <p>2000-2008</p>
+              </div>
+              <div>
+                <p><strong>Quillahue</strong></p>
+                <p>Humanista</p>
+                <p>Enseñanza Basica</p>
+                <p>Completa</p>
               </div>
             </div>
           </div>
         </div>
-        <footer class="text-center footer" style="background-color: #0000ad;">
-          <!-- Grid container -->
-          <div class="container pt-4">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-              <!-- Linkedin -->
-              <a
-                data-mdb-ripple-init
-                class="btn btn-link btn-floating btn-lg text-body m-1 bg-light"
-                href="https://www.linkedin.com/in/eleazar-jara-jofre-3200a768/"
-                role="button"
-                data-mdb-ripple-color="light"
-                ><i class="fab fa-linkedin"></i
-              ></a>
-              <!-- Github -->
-              <a
-                data-mdb-ripple-init
-                class="btn btn-link btn-floating btn-lg text-body m-1 bg-light"
-                href="https://github.com/Eazj"
-                role="button"
-                data-mdb-ripple-color="dark"
-                ><i class="fab fa-github"></i
-              ></a>
-            </section>
-            <!-- Section: Social media -->
+      </div>
+      <!--Contacto-->
+      <div class="container espacio">
+        <div class="row">
+          <div class="text-center titulo" id="contacto">
+            <h1>Contacto</h1>
           </div>
-          <!-- Grid container -->
-        
-          <!-- Copyright -->
-          <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.05);">
-            © 2024 Copyright:
-            <a class="text-body link-light link" href="https://empieza.desafiolatam.com/users/16733">Eleazar Jara</a>
+          <div class="contacto-container">
+            <div class="bloque-contacto gap-3">
+              <div class="icono"><i class="fa-solid fa-phone"></i></div>
+              <div class="datos-de-contacto">+569-1234567989</div>
+            </div>
+            <div class="bloque-contacto gap-3">
+              <div class="icono"><i class="fa-solid fa-envelope"></i></div>
+              <div class="datos-de-contacto">eleazartmw15@gmail.com</div>
+            </div>
+            <div class="bloque-contacto gap-3">
+              <div class="icono"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="datos-de-contacto">
+                Villa el crisol, Chillan Viejo, Ñuble, Chile
+              </div>
+            </div>
           </div>
-          <!-- Copyright -->
-        </footer>
-      </main>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        </div>
+      </div>
+      <footer class="text-center footer" style="background-color: #0000ad">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1 bg-light"
+              href="https://www.linkedin.com/in/eleazar-jara-jofre-3200a768/"
+              role="button"
+              data-mdb-ripple-color="light"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1 bg-light"
+              href="https://github.com/Eazj"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3 text-white"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2024 Copyright:
+          <a
+            class="text-body link-light link"
+            href="https://empieza.desafiolatam.com/users/16733"
+            >Eleazar Jara</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </main>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/9de2f219c3.js" crossorigin="anonymous"></script>
-</body>
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/9de2f219c3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

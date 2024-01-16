@@ -1,54 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.espacio{
-    margin: 2rem;
+.espacio {
+  margin: 2rem;
 }
-.titulo{
-    margin: 2rem;
+.titulo {
+  margin: 2rem;
 }
 /*navbar*/
-.barra-navegacion{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 4rem;
+.barra-navegacion {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4rem;
 }
 /*Seccion Trabajos*/
-.trabajo-card{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.trabajo-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*Seccion Experiencia Laboral*/
-.contenedor-exp-laboral{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 0 2rem 0;
+.contenedor-exp-laboral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 2rem 0;
+}
+.contenedor-exp-laboral div p:hover {
+  background-color: blue;
 }
 /*Seccion Eduacion*/
-.contenedor-eduacion{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 0 2rem 0;
+.contenedor-eduacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 2rem 0;
 }
-.subcontenedor-eduacion{
-    display: flex;
+.subcontenedor-eduacion {
+  display: flex;
 }
-.contenedor-years{
-    align-items: flex-start;
+.contenedor-years {
+  align-items: flex-start;
 }
 /*Contacto*/
-.contacto-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contacto-container {
+  display: flex;
+  align-items: center;
+  color: white;
 }
-.bloque-contacto{
-    display: flex;
-    align-items: center;
-    margin: 0.5rem 0 0.5rem 0;
+.bloque-contacto {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0 0.5rem 0;
 }
